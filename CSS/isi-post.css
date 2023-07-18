@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400');
+@import url("https://fonts.googleapis.com/css?family=Cardo:400i|Rubik:400,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&family=Roboto:ital,wght@1,700&display=swap');
+
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
+.menu {
+    width : 20px;
+    cursor : pointer;
+    margin-left: 40px;
+    display : none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    position: -webkit-sticky; /* Safari */
+    top: 0;
+    height: 10vh;
+    padding-top: 1vh;
+}
+
+li {
+    float: left;
+    font-family: 'Roboto';
+}
+
+li h1 {
+    color : rgb(0, 0, 0);
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 600px;
+}
+
+.judul {
+    color : rgb(0, 0, 0);
+    padding-left: 10px;
+    padding-right: 600px;
+    font-family: 'Roboto';
+}
+
+.soal {
+    padding-top: 1000px;
+}
+.nomor {
+    padding-left: 0,5em;
+    padding-right: 10px;
+    float : center;
+}
+
+.tmbl {
+    background: rgb(0, 0, 0);
+    padding: 0.7em;
+    width: 15%;
+    float: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.tmbl:hover {
+    background: rgb(93, 93, 93);
+  }
+

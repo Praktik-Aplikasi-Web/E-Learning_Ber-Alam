@@ -1,0 +1,162 @@
+*{
+    margin : 0;
+    padding : 0;
+    font-family: 'Roboto', sans-serif;
+}
+  
+.container {
+    width : 100%;
+    height : 100vh;
+    background-image : linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(https://p4.wallpaperbetter.com/wallpaper/894/942/417/desert-at-night-wallpaper-preview.jpg);
+    background-position : center;
+    background-size : cover;
+    padding-left : 8%;
+    padding-right : 8%;
+    box-sizing : border-box;
+}
+
+.navbar {
+    height : 12%;
+    display : flex;
+    align-items : center;
+
+}
+
+.menu {
+    width : 20px;
+    cursor : pointer;
+    margin-left: 40px;
+    display : none;
+}
+
+nav {
+    flex : 1;
+    text-align : right;
+}
+
+nav ul li {
+    list-style : none;
+    display : inline-block;
+    margin-left : 60px;
+}
+
+nav ul li a {
+    text-decoration : none;
+    color : #fff;
+    font-size : 20px;
+}
+
+.row {
+    display : flex;
+    height : 88%;
+    align-items : center;
+}
+
+.col {
+    flex-basis : 50%; 
+}
+
+h1 {
+    color : white;
+    font-size : 55px;
+}
+
+p {
+    color : white;
+    font-size : 20px;
+    line-height : 15px;
+}
+
+.card {
+    width : 200px;
+    height : 230px;
+    display : inline-block;
+    border-radius : 10px;
+    padding : 15px 25px;
+    box-sizing : border-box;
+    cursor : pointer;
+    margin : 10px 15px;
+    background-position : center;
+    background-size : cover;
+    transition: transform 0.5s;
+}
+
+.card1 {
+    background-image : url(https://narasisejarah.id/wp-content/uploads/2022/04/islam-unggulan-1417x760.jpg);
+}
+.card2 {
+    background-image : url(https://www.womanindonesia.co.id/wp-content/uploads/2022/04/Sejarah-Agama-Islam.jpg);
+}
+.card3 {
+    background-image : url(http://pku.unida.gontor.ac.id/wp-content/uploads/2019/08/Untitled-1024x653.jpg);
+}
+.card4 {
+    background-image : url(https://awsimages.detik.net.id/community/media/visual/2021/05/28/kisah-penaklukan-konstantinopel-yang-kini-jadi-istanbul-10_169.jpeg?w=1200);
+}
+
+.card:hover {
+    transform : translateY(-10px);
+}
+
+h5 {
+    color : white;
+    text-shadow : 0 0 5px #999 ;   
+}
+
+.card p {
+    text-shadow : 0 0 15px #000;
+    font-size : 11px;
+}
+
+.sosmed img{
+    height : 20px;
+    margin : 15px;
+    cursor : pointer;
+}
+
+.sosmed {
+    text-align: center;
+
+}
+
+.sosmed:hover {
+    opacity: 0,7;
+}
+
+
+@media only screen and (max-width:700px) {
+
+    nav ul {
+        width : 100%;
+        position : absolute;
+        background : black;
+        top : 75px;
+        right : 0;
+        z-index: 2;
+    }
+
+    nav ul li {
+        display : block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 20px;
+    }
+
+    nav ul li a {
+        color : white;
+    }
+
+    .menu {
+        display : block;
+    }
+
+    .card {
+        display : none;
+    }
+
+    #menulist {
+        overflow : hidden;
+        transition: 0.5s;
+    }
+
+}
