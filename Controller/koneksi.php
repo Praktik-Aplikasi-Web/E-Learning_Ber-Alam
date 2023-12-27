@@ -5,7 +5,7 @@ $user     = 'root'; // diisi dengan user database kalian biasanya
                     // merubahnya
 $password = '';  //diisi dengan password database kalian biasanya
                  // defaultnya kosong
-$db       = 'RPL'; //diisi dengan nama database kalian
+$db       = 'rpl'; //diisi dengan nama database kalian
   
 $con = mysqli_connect($host, $user, $password, $db) or die(mysqli_error($con));
 ?>

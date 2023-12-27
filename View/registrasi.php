@@ -67,7 +67,7 @@ if (isset($_POST['validasi'])) {
 function cek_nama($nama, $con)
 {
   $nama = mysqli_real_escape_string($con, $nama);
-  $query = "SELECT * FROM users WHERE username = '$nama'";
+  $query = "SELECT * FROM users WHERE nama = '$nama'";
   if ($result = mysqli_query($con, $query)) return mysqli_num_rows($result);
 }
 ?>

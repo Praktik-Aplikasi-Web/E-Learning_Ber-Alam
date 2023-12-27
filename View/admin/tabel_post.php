@@ -54,7 +54,8 @@
     <td>" . $row['d'] . "</td>
     <td>" . $row['kunci'] . "</td>
     <td>
-    <a href='delete2.php?id=$row[id]'>Delete</a>
+    <a href='edit3.php?id=$row[id]'>Edit</a>
+    <a href='delete3.php?id=$row[id]'>Delete</a>
     </td>
       </tr>";
                 $no++;
