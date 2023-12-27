@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400');
+@import url("https://fonts.googleapis.com/css?family=Cardo:400i|Rubik:400,700&display=swap");
+
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
+.menu {
+    width : 20px;
+    cursor : pointer;
+    margin-left: 40px;
+    display : none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    position: -webkit-sticky; /* Safari */
+    top: 0;
+    height: 10vh;
+    padding-top: 1vh;
+}
+  
+li {
+    float: left;
+    font-family: 'Roboto';
+}
+
+li h1 {
+    color : rgb(255, 255, 255);
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 440px;
+}
+  
+li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Roboto';
+}
+
+li a:hover {
+    background-color: rgb(83, 83, 83);
+}
+.header {
+    width : 100%;
+    height : 90vh;
+    background-image : linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(https://darunnajah.com/wp-content/uploads/2018/10/al-quran-menghafal-1.jpg);
+    background-position : center;
+    background-size : cover;
+    box-sizing : border-box;
+    text-align: center;
+}
+
+.text {
+    padding-top: 20%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    color :rgb(255, 255, 255);
+}
+
+.text2 {
+    color :rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+form {
+    border: 1px;
+    margin: 0rem auto 0 auto;
+    max-width: 600px;
+    text-align: left;
+  }
+  
+.form1 {
+    padding-top: 18px;
+    display: grid;
+    border: 1px;
+    margin: 0rem auto 0 auto;
+    max-width: 600px;
+    text-align: left;
+}
+ 
+  form input {
+    background: #fff;
+    border: 1px solid #9c9c9c;
+  }
+  .tombol {
+    background: rgb(0, 0, 0);
+    padding: 0.7em;
+    width: 50%;
+    float: right;
+    border: 0;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .tombol:hover {
+    background: rgb(93, 93, 93);
+  }
+
+  
+  label {
+    padding-right: 30em;
+    font-family: 'Roboto', sans-serif;
+    color : white;
+    padding-bottom: 5px;
+  }
+  
+  .edit {
+    padding: 0.7em;
+    margin-bottom: 0.8rem;
+}
+
+  input:focus {
+    outline: 3px solid rgb(116, 116, 116);
+}
+
+
+
+.input-control {
+    padding: 0.7em;
+    margin-bottom: 0.8rem;
+    padding-right: 30px;
+
+}
+
+select:focus {
+    outline: 3px solid rgb(116, 116, 116);
+  }
+
