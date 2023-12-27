@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400');
+@import url("https://fonts.googleapis.com/css?family=Cardo:400i|Rubik:400,700&display=swap");
+
+
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
+.menu {
+    width : 20px;
+    cursor : pointer;
+    margin-left: 40px;
+    display : none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    position: -webkit-sticky; /* Safari */
+    top: 0;
+    height: 10vh;
+    padding-top: 1vh;
+}
+  
+li {
+    float: left;
+    font-family: 'Roboto';
+}
+
+li h1 {
+    color : rgb(255, 255, 255);
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 440px;
+}
+  
+li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Roboto';
+}
+
+li a:hover {
+    background-color: rgb(83, 83, 83);
+}
