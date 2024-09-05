@@ -8,7 +8,7 @@ Features
 - Community Engagement: BER-ALAM fosters a sense of community by encouraging users to interact with one another, share insights, and participate in group activities.
 
 Contact
-If you have any questions, suggestions, or feedback regarding BER-ALAM, please reach out to us at daffasatria036@gmail.com.
+If you have any questions, suggestions, or feedback regarding BER-ALAM, please reach out to us at raihan4d53@gmail.com.
 
 We hope BER-ALAM serves as a valuable resource for your Islamic learning journey. Happy exploring and expanding your knowledge of Islam!
 
